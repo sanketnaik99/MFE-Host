@@ -79,13 +79,13 @@ export default function RootLayout({
               >
                 <ul className="flex-col md:flex-row flex md:space-x-8 mt-4 md:mt-0 md:text-sm md:font-medium">
                   <li>
-                    <a
-                      href="#"
+                    <Link
+                      href="/"
                       className="bg-blue-700 md:bg-transparent text-white block pl-3 pr-4 py-2 md:text-blue-700 md:p-0 rounded"
                       aria-current="page"
                     >
                       Home
-                    </a>
+                    </Link>
                   </li>
                   <li>
                     <Link
